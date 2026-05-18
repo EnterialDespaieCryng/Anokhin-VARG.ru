@@ -525,3 +525,42 @@ h1 { font-size: 3em; margin-bottom: 20px; color: var(--text-light); text-shadow:
 .mobile-menu-toggle {
     display: none;
 }
+/* ИСПРАВЛЕНИЕ МОБИЛЬНОГО МЕНЮ */
+@media (max-width: 768px) {
+    /* Убираем горизонтальный скролл */
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    
+    .header .container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    /* Переводим меню в вертикальный список на мобильных */
+    .main-nav {
+        width: 100%;
+        order: 3;
+        overflow-x: auto;
+    }
+    
+    .main-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px !important;
+    }
+    
+    .main-nav ul li {
+        flex-shrink: 0;
+    }
+    
+    .main-nav ul li a,
+    .main-nav ul li .dropdown-toggle {
+        white-space: nowrap;
+        font-size: 0.85em;
+        padding: 5px 10px;
+        display: inline-block;
+    }
+}
