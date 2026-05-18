@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АНОХИН ВАРГ: Ваш Финансовый Партнер</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">АНОХИН ВАРГ</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Частным лицам</a></li>
+                    <li><a href="#">Бизнесу</a></li>
+                    <li><a href="#">Инвестиции</a></li>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="#">Поддержка 24/7</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Личный кабинет</a>
+                        <div class="dropdown-panel">
+                            <div class="dropdown-panel-header">💻 Личный кабинет</div>
+                            <ul class="dropdown-menu-list">
+                                <li><a href="#">Статистика и аналитика</a></li>
+                                <li><a href="#">База знаний</a></li>
+                                <li><a href="#">Закрывающие документы</a></li>
+                                <li><a href="#">Self-service для самостоятельного запуска</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="utility-nav">
+                <a href="#" class="btn btn-login">Войти</a>
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero: Синий фон, тигр слева (закругленный), текст справа -->
+        <section class="hero-section">
+            <div class="container hero-inner-wrapper">
+                <div class="hero-visual-half">
+                    <img src="тигр.png" alt="Белый тигр" class="hero-tiger-image">
+                </div>
+                <div class="hero-content-half">
+                    <div class="hero-logo-block">
+                        
+                        <div class="hero-logo-text">
+                            <span class="logo-name">АНОХИН ВАРГ</span>
+                            <span class="logo-pao">ПАО</span>
+                        </div>
+                    </div>
+                    <h1>БАНК, КОТОРЫЙ <br>ЗАЩИЩАЕТ ГЛАВНОЕ</h1>
+                    <p class="hero-tagline">Как тигр бережёт добычу, так мы бережём ваши средства.</p>
+                    <div class="hero-separator"></div>
+                    <p class="hero-attributes">Возрождение. Активность. Рост. Гарантия.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция О банке (с разворачивающимся текстом) -->
+        <section class="about-bank-section">
+            <div class="container">
+                <div class="about-header">
+                    <h2>О банке</h2>
+                    <button id="about-details-btn" class="details-link">Подробнее <span class="arrow">↓</span></button>
+                </div>
+                
+                <div id="about-expanded-text" class="expandable-content">
+                    <div class="expanded-info-card">
+                        <p>Наш слоган Анохин Варг банка вызывает уверенность и доверие «Как тигр бережёт добычу, так наш банк бережёт ваши средства».
+
+Возрождение — способность банка поддерживать клиентов в любых экономических условиях.
+
+Активность — постоянное присутствие на рынке и оперативное реагирование на потребности клиентов.
+
+Рост — увеличение капитала клиентов и развитие самого банка.
+
+Гарантия — обеспечение сохранности средств в рамках действующего законодательства и внутренних нормативов.</p>
+                        <p>Наша миссия — обеспечивать устойчивый рост капитала наших партнеров, используя уникальные алгоритмы анализа рисков и персональный подход к каждой транзакции.</p>
+                    </div>
+                </div>
+
+                <div class="about-tabs">
+                    <button class="tab-btn active" data-tab="achievements">Достижения</button>
+                    <button class="tab-btn" data-tab="work-alfa">Работа в АВ</button>
+                </div>
+                <div id="achievements" class="tab-content active">
+                    <div class="alfa-future-block">
+                        <div class="alfa-text">
+                            <h3>АВ-Будущее</h3>
+                            <p>Стажировки для студентов со всей страны</p>
+                        </div>
+                        <div class="alfa-image">
+        
+                        </div>
+                    </div>
+                </div>
+                <div id="work-alfa" class="tab-content">
+                    <p>Здесь информация о корпоративной культуре и вакансиях.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ: Часто задаваемые вопросы (3 столбца) -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Часто задаваемые вопросы</h2>
+                <div class="faq-grid">
+                    <!-- Столбец 1 -->
+                    <div class="faq-column">
+                        <div class="faq-item">
+                            <div class="faq-question">Кешбэк в пользу природы что это? <span class="faq-icon">+</span></div>
+                            <div class="faq-answer">в мобильном приложении клиент видит, сколько «эко‑баллов» он накопил и на что он был потрачен (например: «Вы помогли закупить 10 кг корма для медвежат в центре реабилитации»).</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Почему мы? <span class="faq-icon">+</span></div>
+                            <div class="faq-answer">Каждый раз, когда вы расплачиваетесь нашей картой в кафе или магазине, банк отчисляет 0,5% от своей комиссии в Фонд охраны редких видов. Вы ничего не теряете — вы просто покупаете кофе, а на эти деньги мы:
+
+Покупаем корм и лекарства для амурских тигров и сайгаков;
+
+Финансируем антибраконьерские рейды;
+
+Устанавливаем фотоловушки в заповедниках.
+Ваши повседневные траты превращаются в спасение целого вида. Чек за ужин = один спасённый ёж-ушаст. Ипотека? Вы «посадили» десять краснокнижных лотосов. Выгодно вам и жизненно важно им.</div>
+                        </div>
+                    </div>
+                    <!-- Столбец 2 -->
+                    <div class="faq-column">
+                        <div class="faq-item">
+                            <div class="faq-question">Безопасность данных <span class="faq-icon">+</span></div>
+<div class="faq-answer">Мы используем трёхуровневое шифрование и биометрическую аутентификацию. Ваши платежи, сканы паспорта и SMS-коды защищены так же надежно, как в спецхранилище. Данные не покидают ваш девайс, а любое подозрительное списание блокируется ИИ за 0,5 секунды.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Мобильное приложение <span class="faq-icon">+</span></div>
+                            <div class="faq-answer">Всё управление финансами — в вашем смартфоне. Оплата по Face ID, моментальные переводы по номеру телефона, заморозка «лишней» карты и платежи в одно касание. А ещё в приложении вы видите, сколько копеек с каждой вашей покупки ушло на спасение редких зверей.</div>
+                        </div>
+                    </div>
+                    <!-- Столбец 3 -->
+                    <div class="faq-column">
+                        <div class="faq-item">
+                            <div class="faq-question">Кредитные лимиты <span class="faq-icon">+</span></div>
+                            <div class="faq-answer">Мы рассчитываем лимит индивидуально, без скрытых комиссий. Чем чаще вы пользуетесь картой и гасите долги вовремя — тем выше ставка доверия и доступная сумма. Увеличить лимит можно в два клика в приложении, без справок о доходах.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">Служба поддержки <span class="faq-icon">+</span></div>
+                            <div class="faq-answer">Живые операторы 24/7, без роботов-бесконечников. Пишите в чат приложения, звоните или отправляйте голосовое сообщение — ответ придёт в среднем за 1 минуту. Решаем всё: от блокировки карты до вопросов по процентам.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Новая секция для спонсоров -->
+        <section class="sponsors-section">
+            <div class="container">
+                <h2>Наши партнеры и спонсоры</h2>
+                <div class="sponsors-grid">
+                    <!-- Блок 1 -->
+                    <div class="sponsor-block">
+                        <div class="sponsor-image-wrapper">
+                            <img src="фпи банкt.png" alt="Логотип Спонсора 1">
+                        </div>
+                        <h3>Владелец FPI Bank - Nowkie"</h3>
+                        <p>Лидер в сфере инноваций.</p>
+                    </div>
+                    <!-- Блок 2 -->
+                    <div class="sponsor-block">
+                        <div class="sponsor-image-wrapper">
+                            <img src="Роман Донской.png" alt="Логотип Спонсора 2">
+                        </div>
+                        <h3>Бизнесмен, артист Роман Донцкой"</h3>
+                        <p>Надежный партнер в сфере Рекламы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Секция "Наши продукты" (возвращаем) -->
+<section class="our-products-section">
+    <div class="container">
+        <h2>Наши продукты:</h2>
+        <div class="products-grid">
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="оплата телефоном.png" alt="Продукт 1">
+                </div>
+                <h3>Оплата смартфоном</h3>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="наличка.png" alt="Продукт 2">
+                </div>
+                <h3>Кредит наличными</h3>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="кешбек.png" alt="Продукт 3">
+                </div>
+                <h3>Природный кэшбэк</h3>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="карта.png" alt="Продукт 4">
+                </div>
+                <h3>Бесплатная кредитка</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Секция "Дресс-код сотрудников" (возвращаем) -->
+<section class="dress-code-section">
+    <div class="container">
+        <div class="dress-code-header">
+            <h2>Наш Дресс-код</h2>
+            <p>Форма сотрудников отражает ценности нашего банка: профессионализм, доверие и заботу о клиентах.</p>
+        </div>
+        <div class="dress-code-items">
+            <div class="dress-code-item">
+                <img src="дядя.png" alt="Деловой стиль (жен.)">
+                <p>Деловой стиль</p>
+            </div>
+            <div class="dress-code-item">
+                <img src="тетя.png" alt="Фирменные цвета (муж.)">
+                <p>Фирменные цвета<br>голубой и белый</p>
+            </div>
+            <div class="dress-code-item">
+                <img src="дядя2.png" alt="Нашивка с логотипом">
+                <p>Нашивка с логотипом банка</p>
+            </div>
+            <div class="dress-code-item">
+                <img src="тетя2.png" alt="Аккуратность и опрятность">
+                <p>Аккуратность и опрятность</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Другие секции (офис, дресс-код и т.д.) -->
+        <section class="office-section">
+            <div class="container">
+                <h2>Наш офис</h2>
+                <div class="office-gallery">
+                    <div class="office-item"><img src="оффис.png" alt="Офис"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">&copy; 2026 АНОХИН ВАРГ. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
